@@ -37,7 +37,7 @@ export default class Weightlifting {
       </div>
 
       <div class="clean&jerk">
-         <img class="cleanMan snatchWoman" src="http://localhost:1234/WL_2.14862fb7.png?1739215770766">
+         <img class="cleanMan snatchWoman" src="http://localhost:1234/WL_London.41d776bc.png?1739315463921">
           
             <span class="snatch">ПОШТОВХ</span>
         
@@ -59,7 +59,7 @@ export default class Weightlifting {
 
     // const img = document.createElement('img');
     //       img.className = "weightlifting-img"; 
-    //       img.src = new URL('./img/WL_Clean.png/', import.meta.url);
+    //       img.src = new URL('./img/WL_London.png/', import.meta.url);
           
     //       weightliftingElement.append(img);
 
