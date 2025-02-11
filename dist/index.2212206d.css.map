@@ -1,0 +1,1 @@
+{"mappings":"AAMA","sources":["src/header/header.css"],"sourcesContent":["/* @tailwind base;\r\n@tailwind components;\r\n@tailwind utilities; */\r\n\r\n\r\n\r\n.nav-img {\r\n  width: 80px;\r\n  height: 80%;\r\n  border-radius: 50%;\r\n}"],"names":[],"version":3,"file":"index.2212206d.css.map","sourceRoot":"/__parcel_source_root/"}
