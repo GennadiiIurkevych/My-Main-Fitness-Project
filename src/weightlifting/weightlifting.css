@@ -1,4 +1,23 @@
 
+section.services {
+  background-color: rgba(4, 14, 152, 0.947);
+}
+
+.heading {
+  margin-bottom: 1rem;
+  font-size: var(--big-fz);
+  font-weight: 800;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.services .services-img img {
+  border-radius: 1rem;
+  box-shadow:var(--box-shadow);
+  max-width: 78rem;
+  margin: 0 auto;
+}
+
 .weightlifting-section {
   position: relative;
   display: flex;
