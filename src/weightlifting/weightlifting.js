@@ -36,16 +36,16 @@ export default class Weightlifting {
 
       </div>
 
-      <div class="clean&jerk">
-         <img class="cleanMan snatchWoman" src="http://localhost:1234/WL_London.41d776bc.png?1739315463921">
+      <div class="clean-jerk">
+         <img class="cleanMan" src="http://localhost:1234/ilya.d98b69ae.png?1741420192656">
           
-            <span class="snatch">ПОШТОВХ</span>
+            <span class="clean_jerk">ПОШТОВХ</span>
         
         <p>
           Другий вид програми олімпійського двоборста, що складається з двох частин - підйому штанги на груди та поштовху від грудей. Вправа характеризується швидкісно-силовою та силовою роботою і, також,  вимагає високий рівень координації та гнучкості.
         </p>
           
-        <img class="cleanWoman snatchMan" src="http://localhost:1234/WL_Clean.6eaf2add.png?1739314566234">
+        <img class="clean_jerkMan" src="http://localhost:1234/WL_CleanWoman.f96a0054.png?1741419844473">
       </div>
     `
   }
@@ -55,11 +55,11 @@ export default class Weightlifting {
     weightliftingElement.className = "weightlifting-section";
     weightliftingElement.id = "weightlifting";
     weightliftingElement.innerHTML = this.getTemplate();
-          this.weightliftingElement = weightliftingElement;
+    this.weightliftingElement = weightliftingElement;
 
     // const img = document.createElement('img');
     //       img.className = "weightlifting-img"; 
-    //       img.src = new URL('./img/WL_London.png/', import.meta.url);
+    //       img.src = new URL('./img/ilya.png/', import.meta.url);
           
     //       weightliftingElement.append(img);
 

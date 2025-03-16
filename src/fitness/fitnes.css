@@ -42,8 +42,8 @@ ul.fit {
 }
 
 ul.fit img {
-  margin-top: -15rem;
-  max-width: 34rem;
+  max-width: 38rem;
+  margin-top: -18rem;
   margin-left: 2rem;
 }
 
@@ -120,11 +120,11 @@ ul.flexBody img {
 .fitness-container {
   margin-top: 2rem;
   border-radius: 1rem;
-  box-shadow:var(--box-shadow); 
+ 
   max-width: 78rem;
-  margin-left: 3rem;
+
   padding: 1rem 1rem 1rem 0;
-  background-color: var(--ligth-black);
+
 }
 
 .btn-fitness {
@@ -215,7 +215,7 @@ ul.grow img.grow {
   }
 
   .services .services-img img {
-    max-width: 40rem;
+    max-width: 36.5rem !important;
   }
 
   .fitness-container {
@@ -226,7 +226,7 @@ ul.grow img.grow {
   ul.strong {
     margin-top: 1rem;
     line-height: 1.25rem;
-}
+  }
 
   ul.strong img {
     max-width: 13rem;
@@ -253,7 +253,7 @@ ul.grow img.grow {
   ul.grow img.grow {
     max-width: 14rem;
     margin-top: -22rem;
-    margin-right: 11rem;
+    margin-right: 9rem;
     position: absolute;
   }
 
@@ -265,12 +265,13 @@ ul.grow img.grow {
     position: absolute;
   }
 
-  ul.upperFit {
-    flex-direction: row-reverse;
+  ul.upperFit li {
+    margin-right: -34rem;
+    margin-left: 0;
   }
 
-  ul.upperFit li {
-    margin-right: -25rem;
+  ul.grow>li {
+    margin-top: 1rem;
   }
 
   ul.upperFit img.man {
@@ -287,11 +288,11 @@ ul.grow img.grow {
 
   ul.flexBody li {
     margin-top: 14rem;
-    margin-left: 27rem;
+    margin-left: 23rem;
   }
 
   .btn-fitness {
-    margin-left: 11rem;
+    margin-left: 10rem;
   }
 }
 

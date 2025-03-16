@@ -14,8 +14,8 @@ section.services {
 .services .services-img img {
   border-radius: 1rem;
   box-shadow:var(--box-shadow);
-  max-width: 78rem;
-  margin: 0 auto;
+  max-width: 77rem;
+  margin-left: 2rem;
 }
 
 .weightlifting-section {
@@ -24,10 +24,9 @@ section.services {
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
-  padding-top: 2rem 3rem;
   max-width: var(--max-width);
-  margin: 0 auto;
-  background-color: rgba(4, 14, 152, 0.947);
+  margin-top: 2rem;
+  margin-left: 2rem;
   max-height: fit-content;
 }
 
@@ -118,6 +117,40 @@ span.club-name:hover {
   box-shadow: 0 .3rem 1rem var(--main-color);
 }
 
+.cleanMan {
+  margin-left: 1rem;
+  max-width: 38%;
+  margin-top: -4rem;
+}
+
+.clean_jerk {
+  -webkit-text-fill-color: var(--black);
+  -webkit-text-stroke: 3px var(--main-color);
+  margin-left: 38rem;
+  font-size: 4rem;
+  font-weight: 800;
+  position: absolute;
+  margin-top: -26rem;
+}
+
+.clean_jerkMan {
+  margin-top: -19rem;
+  margin-left: 56rem;
+  max-width: 26rem;
+}
+
+.clean-jerk p {
+  color: var(--text-color);
+  max-width: 35rem;
+  margin-top: -17rem;
+  margin-bottom: 1rem;
+  margin-left: 25rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  position: absolute;
+}
+
+
 @media screen and (max-width: 420px) {
 
   .weightlifting-section {
@@ -160,6 +193,29 @@ span.club-name:hover {
     font-size: 3rem;
     margin-left: 3rem;
 }
+
+.clean_jerk {
+  margin-top: -30rem;
+  margin-left: 7rem;
+}
+
+.clean-jerk p {
+  margin-left: 1rem;
+  margin-top: -.5rem;
+}
+
+.cleanMan {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  max-width: 82%;
+}
+
+.clean_jerkMan {
+  max-width: 28rem;
+  margin-top: 9rem;
+  margin-left: 4rem;
+}
+
 } 
 
 img2 {
@@ -175,7 +231,7 @@ img.snatchMan {
 
 img.snatchWoman {
   position: relative;
-  max-width: 20rem;
+  max-width: 18rem;
 }
 
 .snatch {
@@ -211,6 +267,11 @@ span.snatch  {
 }
 
 @media screen and (max-width: 420px) {
+
+  .services .services-img img {
+    max-width: 40rem;
+  }
+
   .snatch {
     flex-direction: column;
     max-width: 100rem;
@@ -248,5 +309,8 @@ img.snatchWoman {
   right: 4rem;
 }
 
+.btn {
+ margin-left: 10rem; 
+}
 
 }

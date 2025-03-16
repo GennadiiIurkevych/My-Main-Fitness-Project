@@ -230,7 +230,6 @@ nav a {
 .home-section {
   padding-top: 2rem 3rem;
   max-width: var(--max-width);
-  background-color: #040e98f1;
   flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
@@ -387,26 +386,6 @@ nav a {
   }
 }
 
-hr {
-  border-top-width: 2px !important;
-  border-top-color: #e9e9f112 !important;
-  margin: 2rem 9rem !important;
-}
-
-section ul li {
-  font-size: var(--big-fz);
-  color: var(--main-color);
-  -webkit-backdrop-filter: blur(5px);
-  height: fit-content;
-  box-shadow: 0 8px 32px 0 rgba (0, 0, 0, .8);
-  text-align: center;
-  background: linear-gradient(135deg, #ffffff1a, #fff0);
-  border: 2px solid #e9e9f112;
-  border-radius: 1rem;
-  margin-left: 2rem;
-  padding: .5rem;
-}
-
 ul.strong {
   margin-top: 2rem;
   margin-right: 1rem;
@@ -428,8 +407,8 @@ ul.fit {
 }
 
 ul.fit img {
-  max-width: 34rem;
-  margin-top: -15rem;
+  max-width: 38rem;
+  margin-top: -18rem;
   margin-left: 2rem;
 }
 
@@ -481,11 +460,6 @@ ul.upperFit img.man {
   position: absolute;
 }
 
-ul.upperFit img.girl {
-  max-height: 18rem;
-  margin-top: 1rem;
-}
-
 ul.flexBody {
   line-height: 2.5rem;
   display: flex;
@@ -504,12 +478,9 @@ ul.flexBody img {
 }
 
 .fitness-container {
-  box-shadow: var(--box-shadow);
-  background-color: var(--ligth-black);
   border-radius: 1rem;
   max-width: 78rem;
   margin-top: 2rem;
-  margin-left: 3rem;
   padding: 1rem 1rem 1rem 0;
 }
 
@@ -593,7 +564,7 @@ ul.flexBody img {
   }
 
   .services .services-img img {
-    max-width: 40rem;
+    max-width: 36.5rem !important;
   }
 
   .fitness-container {
@@ -631,7 +602,7 @@ ul.flexBody img {
   ul.grow img.grow {
     max-width: 14rem;
     margin-top: -22rem;
-    margin-right: 11rem;
+    margin-right: 9rem;
     position: absolute;
   }
 
@@ -643,12 +614,13 @@ ul.flexBody img {
     position: absolute;
   }
 
-  ul.upperFit {
-    flex-direction: row-reverse;
+  ul.upperFit li {
+    margin-left: 0;
+    margin-right: -34rem;
   }
 
-  ul.upperFit li {
-    margin-right: -25rem;
+  ul.grow > li {
+    margin-top: 1rem;
   }
 
   ul.upperFit img.man {
@@ -665,11 +637,11 @@ ul.flexBody img {
 
   ul.flexBody li {
     margin-top: 14rem;
-    margin-left: 27rem;
+    margin-left: 23rem;
   }
 
   .btn-fitness {
-    margin-left: 11rem;
+    margin-left: 10rem;
   }
 }
 
@@ -685,15 +657,33 @@ ul.flexBody img {
   }
 }
 
-.weightlifting-section {
-  padding-top: 2rem 3rem;
-  max-width: var(--max-width);
+section.services {
   background-color: #040e98f1;
+}
+
+.heading {
+  font-size: var(--big-fz);
+  text-align: center;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.services .services-img img {
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem;
+  max-width: 77rem;
+  margin-left: 2rem;
+}
+
+.weightlifting-section {
+  max-width: var(--max-width);
   flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
   max-height: fit-content;
-  margin: 0 auto;
+  margin-top: 2rem;
+  margin-left: 2rem;
   display: flex;
   position: relative;
 }
@@ -781,6 +771,39 @@ span.club-name:hover {
   box-shadow: 0 .3rem 1rem var(--main-color);
 }
 
+.cleanMan {
+  max-width: 38%;
+  margin-top: -4rem;
+  margin-left: 1rem;
+}
+
+.clean_jerk {
+  -webkit-text-fill-color: var(--black);
+  -webkit-text-stroke: 3px var(--main-color);
+  margin-top: -26rem;
+  margin-left: 38rem;
+  font-size: 4rem;
+  font-weight: 800;
+  position: absolute;
+}
+
+.clean_jerkMan {
+  max-width: 26rem;
+  margin-top: -19rem;
+  margin-left: 56rem;
+}
+
+.clean-jerk p {
+  color: var(--text-color);
+  max-width: 35rem;
+  margin-top: -17rem;
+  margin-bottom: 1rem;
+  margin-left: 25rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  position: absolute;
+}
+
 @media screen and (width <= 420px) {
   .weightlifting-section {
     flex-direction: column;
@@ -822,6 +845,28 @@ span.club-name:hover {
     margin-left: 3rem;
     font-size: 3rem;
   }
+
+  .clean_jerk {
+    margin-top: -30rem;
+    margin-left: 7rem;
+  }
+
+  .clean-jerk p {
+    margin-top: -.5rem;
+    margin-left: 1rem;
+  }
+
+  .cleanMan {
+    max-width: 82%;
+    margin-top: 1rem;
+    margin-left: 3rem;
+  }
+
+  .clean_jerkMan {
+    max-width: 28rem;
+    margin-top: 9rem;
+    margin-left: 4rem;
+  }
 }
 
 img2 {
@@ -836,7 +881,7 @@ img.snatchMan {
 }
 
 img.snatchWoman {
-  max-width: 20rem;
+  max-width: 18rem;
   position: relative;
 }
 
@@ -869,6 +914,10 @@ span.snatch {
 }
 
 @media screen and (width <= 420px) {
+  .services .services-img img {
+    max-width: 40rem;
+  }
+
   .snatch {
     flex-direction: column;
     max-width: 100rem;
@@ -902,6 +951,325 @@ span.snatch {
   .weightlifting-section:before {
     top: 55rem;
     right: 4rem;
+  }
+
+  .btn {
+    margin-left: 10rem;
+  }
+}
+
+hr {
+  border-top-width: 2px !important;
+  border-top-color: #e9e9f112 !important;
+  margin: 2rem 9rem !important;
+}
+
+section ul li {
+  font-size: var(--big-fz);
+  color: var(--main-color);
+  -webkit-backdrop-filter: blur(5px);
+  height: fit-content;
+  box-shadow: 0 8px 32px 0 rgba (0, 0, 0, .8);
+  text-align: center;
+  background: linear-gradient(135deg, #ffffff1a, #fff0);
+  border: 2px solid #e9e9f112;
+  border-radius: 1rem;
+  margin-left: 2rem;
+  padding: .5rem;
+}
+
+ul.strong-rehabilitation {
+  margin-top: 2rem;
+  margin-right: 1rem;
+  line-height: 2.5rem;
+  display: flex;
+}
+
+ul.strong-rehabilitation img {
+  max-width: 30rem;
+  margin-right: 2rem;
+}
+
+ul.strong li.rehabilitation {
+  margin-left: 16rem;
+  display: flex;
+}
+
+ul.fit-rehabilitation {
+  max-width: 80rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  line-height: 2.5rem;
+  display: flex;
+}
+
+ul.fit-rehabilitation > img {
+  max-width: 32rem;
+  margin-top: -23rem;
+  margin-left: 2rem;
+}
+
+ul.build-rehabilitation li {
+  max-width: 58rem;
+}
+
+img.rehabilitation {
+  max-height: 20rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+ul.grow-rehabilitation {
+  flex-direction: row-reverse;
+  max-width: 80rem;
+  margin-top: -3rem;
+  margin-right: 1rem;
+  line-height: 2.5rem;
+  display: flex;
+}
+
+ul.grow-rehabilitation > img.grow {
+  max-width: 26rem;
+  margin-top: -28rem;
+  margin-right: 28rem;
+  position: absolute;
+}
+
+ul.grow-rehabilitation img.lower {
+  max-height: 21rem;
+  margin-top: -17rem;
+  margin-right: 2rem;
+}
+
+img.lower-rehabilitation {
+  border-radius: 2rem;
+  height: 20rem;
+  margin-top: -25rem;
+  margin-left: 61rem;
+  position: absolute;
+}
+
+ul.upperFit-rehabilitation li {
+  margin-top: 1rem;
+  margin-right: 30rem;
+  line-height: 2.5rem;
+  display: flex;
+}
+
+ul.upperFit-rehabilitation img.man {
+  max-height: 20rem;
+  margin-top: 1rem;
+  margin-left: 14rem;
+  position: absolute;
+}
+
+ul.upperFit-rehabilitation img.foot {
+  border-radius: 3rem;
+  max-height: 14rem;
+  margin-top: 15rem;
+  margin-left: 3rem;
+  position: absolute;
+  transform: scale(1, -1)rotate3d(0, 0, 1, 180deg);
+}
+
+ul.upperFit img.girl {
+  max-height: 18rem;
+  margin-top: 1rem;
+}
+
+ul.flexBody-rehabilitation {
+  line-height: 2.5rem;
+  display: flex;
+}
+
+ul.flexBody-rehabilitation > li {
+  width: 40rem;
+  margin-top: 22rem;
+  margin-left: 38rem;
+  display: flex;
+  position: relative;
+}
+
+img.body-rehabilitation {
+  max-width: 44rem;
+  margin-top: -4rem;
+  margin-left: 40rem;
+  position: absolute;
+}
+
+section.services {
+  box-shadow: var(--box-shadow);
+  background-color: var(--ligth-black);
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 1.5rem;
+  padding: 1rem 0;
+}
+
+div.rehabilitation-img img {
+  border-radius: 1rem;
+  width: 77rem;
+  margin-left: 2rem;
+}
+
+button.btn-rehabilitation {
+  color: var(--text-color);
+  cursor: pointer;
+  z-index: 1;
+  background-color: #040e98f1;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  margin-left: 31rem;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+}
+
+.btn-rehabilitation:hover {
+  box-shadow: 0 .3rem .8rem #ff0;
+}
+
+@media screen and (width <= 1040px) {
+  ul.strong-rehabilitation img {
+    max-width: 30rem;
+    margin-left: 6rem;
+  }
+
+  ul.strong li.rehabilitation {
+    margin-left: 20rem;
+  }
+}
+
+@media screen and (width <= 897px) {
+  ul.strong-rehabilitation img {
+    max-width: 30rem;
+  }
+
+  ul.fit-rehabilitation > img {
+    max-width: 28rem;
+  }
+
+  ul.grow-rehabilitation img.lower {
+    max-height: 21rem;
+    margin-top: -17rem;
+    margin-right: 10rem;
+  }
+}
+
+@media screen and (width <= 674px) {
+  ul.strong li.rehabilitation {
+    margin-left: 24rem;
+  }
+}
+
+@media screen and (width <= 524px) {
+  ul.flexBody-rehabilitation > li {
+    width: 40rem;
+    margin-top: 25rem;
+  }
+
+  hr.body-rehabilitation {
+    margin-top: 3rem !important;
+  }
+}
+
+@media screen and (width <= 420px) {
+  div.rehabilitation-img img {
+    width: 37rem;
+  }
+
+  ul.strong li.rehabilitation {
+    margin-left: 7rem;
+  }
+
+  ul.strong-rehabilitation li {
+    width: 24rem;
+    margin-top: -1rem;
+    margin-left: 10rem;
+  }
+
+  ul.fit-rehabilitation li {
+    margin-top: 25rem;
+    margin-left: -31rem;
+  }
+
+  ul.strong-rehabilitation img {
+    max-width: 28rem;
+    margin-top: 35rem;
+    position: absolute;
+  }
+
+  ul.fit-rehabilitation > img {
+    height: 27rem;
+    margin-top: -2rem;
+    margin-left: 8rem;
+  }
+
+  hr {
+    margin: 2rem !important;
+  }
+
+  hr.strong-rehabilitation {
+    margin-top: 29rem !important;
+  }
+
+  ul.build-rehabilitation li {
+    width: 30rem;
+    margin-left: 5rem;
+  }
+
+  ul.grow-rehabilitation img.lower {
+    max-height: 20rem;
+    margin-top: -17.5rem;
+    margin-right: 3rem;
+    position: absolute;
+  }
+
+  ul.grow-rehabilitation li {
+    margin-top: 4rem;
+    margin-right: 10rem;
+  }
+
+  img.lower-rehabilitation {
+    margin-top: 1rem;
+    margin-left: 11.5rem;
+  }
+
+  hr.grow-rehabilitation {
+    margin-top: 23rem !important;
+  }
+
+  ul.upperFit-rehabilitation li {
+    width: 37rem;
+    line-height: 1.2;
+  }
+
+  ul.upperFit-rehabilitation img.foot {
+    max-height: 8rem;
+    margin-top: 2rem;
+  }
+
+  ul.flexBody-rehabilitation > li {
+    width: 37rem;
+    margin-top: 19rem;
+    margin-left: 2rem;
+  }
+
+  img.body-rehabilitation {
+    max-width: 33rem;
+    margin-top: 24rem;
+    margin-left: 0;
+  }
+
+  hr.body-rehabilitation {
+    margin-top: 22rem !important;
+  }
+
+  button.btn-rehabilitation {
+    margin-top: -1rem;
+    margin-left: 8rem;
   }
 }
 
@@ -1168,6 +1536,7 @@ img, video {
 }
 
 .wrapper {
+  background-color: #040e98f1;
   width: 84.25rem;
 }
 

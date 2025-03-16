@@ -2,7 +2,7 @@
 @import url(./home/home.css);
 @import url(./fitness/fitnes.css);
 @import url(./weightlifting/weightlifting.css);
-
+@import url(./rehabilitation/rehabilitation.css);
 
 @tailwind base;
 @tailwind components;
@@ -10,6 +10,7 @@
 
 .wrapper {
   width: 84.25rem;
+  background-color: rgba(4, 14, 152, 0.947);
 }
 
 :root {

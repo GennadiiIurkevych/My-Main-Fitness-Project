@@ -626,10 +626,13 @@ var _fitnessJs = require("./fitness/fitness.js");
 var _fitnessJsDefault = parcelHelpers.interopDefault(_fitnessJs);
 var _weightliftingJs = require("./weightlifting/weightlifting.js");
 var _weightliftingJsDefault = parcelHelpers.interopDefault(_weightliftingJs);
+var _rehabilitationJs = require("./rehabilitation/rehabilitation.js");
+var _rehabilitationJsDefault = parcelHelpers.interopDefault(_rehabilitationJs);
 const header = new (0, _headerJsDefault.default)();
 const home = new (0, _homeJsDefault.default)();
 const fitness = new (0, _fitnessJsDefault.default)();
 const weightlifting = new (0, _weightliftingJsDefault.default)();
+const rehabilitation = new (0, _rehabilitationJsDefault.default)();
 class App {
     constructor(){
         this.render();
@@ -639,13 +642,13 @@ class App {
         root.append(home.homeElement);
         root.append(fitness.fitnessElement);
         root.append(weightlifting.weightliftingElement);
-    // root.append(rehabilitation.rehabilitationElement);
+        root.append(rehabilitation.rehabilitationElement);
     // root.append(about.aboutElement);
     }
 }
 exports.default = App;
 
-},{"./header/header.js":"bezI1","./home/home.js":"3ePZT","./fitness/fitness.js":"1EEvU","./weightlifting/weightlifting.js":"i1HU5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bezI1":[function(require,module,exports,__globalThis) {
+},{"./header/header.js":"bezI1","./home/home.js":"3ePZT","./fitness/fitness.js":"1EEvU","./weightlifting/weightlifting.js":"i1HU5","./rehabilitation/rehabilitation.js":"kj8Kt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bezI1":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 class Header {
@@ -964,16 +967,16 @@ class Weightlifting {
 
       </div>
 
-      <div class="clean&jerk">
-         <img class="cleanMan snatchWoman" src="http://localhost:1234/WL_London.41d776bc.png?1739315463921">
+      <div class="clean-jerk">
+         <img class="cleanMan" src="http://localhost:1234/ilya.d98b69ae.png?1741420192656">
           
-            <span class="snatch">\u{41F}\u{41E}\u{428}\u{422}\u{41E}\u{412}\u{425}</span>
+            <span class="clean_jerk">\u{41F}\u{41E}\u{428}\u{422}\u{41E}\u{412}\u{425}</span>
         
         <p>
           \u{414}\u{440}\u{443}\u{433}\u{438}\u{439} \u{432}\u{438}\u{434} \u{43F}\u{440}\u{43E}\u{433}\u{440}\u{430}\u{43C}\u{438} \u{43E}\u{43B}\u{456}\u{43C}\u{43F}\u{456}\u{439}\u{441}\u{44C}\u{43A}\u{43E}\u{433}\u{43E} \u{434}\u{432}\u{43E}\u{431}\u{43E}\u{440}\u{441}\u{442}\u{430}, \u{449}\u{43E} \u{441}\u{43A}\u{43B}\u{430}\u{434}\u{430}\u{454}\u{442}\u{44C}\u{441}\u{44F} \u{437} \u{434}\u{432}\u{43E}\u{445} \u{447}\u{430}\u{441}\u{442}\u{438}\u{43D} - \u{43F}\u{456}\u{434}\u{439}\u{43E}\u{43C}\u{443} \u{448}\u{442}\u{430}\u{43D}\u{433}\u{438} \u{43D}\u{430} \u{433}\u{440}\u{443}\u{434}\u{438} \u{442}\u{430} \u{43F}\u{43E}\u{448}\u{442}\u{43E}\u{432}\u{445}\u{443} \u{432}\u{456}\u{434} \u{433}\u{440}\u{443}\u{434}\u{435}\u{439}. \u{412}\u{43F}\u{440}\u{430}\u{432}\u{430} \u{445}\u{430}\u{440}\u{430}\u{43A}\u{442}\u{435}\u{440}\u{438}\u{437}\u{443}\u{454}\u{442}\u{44C}\u{441}\u{44F} \u{448}\u{432}\u{438}\u{434}\u{43A}\u{456}\u{441}\u{43D}\u{43E}-\u{441}\u{438}\u{43B}\u{43E}\u{432}\u{43E}\u{44E} \u{442}\u{430} \u{441}\u{438}\u{43B}\u{43E}\u{432}\u{43E}\u{44E} \u{440}\u{43E}\u{431}\u{43E}\u{442}\u{43E}\u{44E} \u{456}, \u{442}\u{430}\u{43A}\u{43E}\u{436},  \u{432}\u{438}\u{43C}\u{430}\u{433}\u{430}\u{454} \u{432}\u{438}\u{441}\u{43E}\u{43A}\u{438}\u{439} \u{440}\u{456}\u{432}\u{435}\u{43D}\u{44C} \u{43A}\u{43E}\u{43E}\u{440}\u{434}\u{438}\u{43D}\u{430}\u{446}\u{456}\u{457} \u{442}\u{430} \u{433}\u{43D}\u{443}\u{447}\u{43A}\u{43E}\u{441}\u{442}\u{456}.
         </p>
           
-        <img class="cleanWoman snatchMan" src="http://localhost:1234/WL_Clean.6eaf2add.png?1739314566234">
+        <img class="clean_jerkMan" src="http://localhost:1234/WL_CleanWoman.f96a0054.png?1741419844473">
       </div>
     `;
     }
@@ -985,11 +988,98 @@ class Weightlifting {
         this.weightliftingElement = weightliftingElement;
     // const img = document.createElement('img');
     //       img.className = "weightlifting-img"; 
-    //       img.src = new URL('./img/WL_London.png/', import.meta.url);
+    //       img.src = new URL('./img/ilya.png/', import.meta.url);
     //       weightliftingElement.append(img);
     }
 }
 exports.default = Weightlifting;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kj8Kt":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+class Rehabilitation {
+    constructor(rehabilitation){
+        this.fitness = rehabilitation;
+        this.render();
+    }
+    getTemplate() {
+        return `
+      <section class="services" id="rehabilitation">
+
+        <h3 class="heading">\u{41F}\u{440}\u{43E}\u{433}\u{440}\u{430}\u{43C}\u{430} \u{440}\u{435}\u{430}\u{431}\u{456}\u{43B}\u{456}\u{442}\u{430}\u{446}\u{456}\u{457} \u{442}\u{430} \u{444}\u{456}\u{437}\u{456}\u{43E}\u{442}\u{435}\u{440}\u{430}\u{43F}\u{456}\u{457}</h3>
+
+        <div class="rehabilitation-img">
+          <img src="http://localhost:1234/Rehabilitation.d3ffdaf8.jpg?1741465415880" alt="image">
+        </div>
+
+        <ul class="strong">
+            <li class="rehabilitation">\u{41F}\u{456}\u{434}\u{431}\u{456}\u{440} \u{432}\u{43F}\u{440}\u{430}\u{432} \u{442}\u{430} \u{440}\u{43E}\u{437}\u{43F}\u{43E}\u{434}\u{456}\u{43B} \u{43D}\u{430}\u{432}\u{430}\u{43D}\u{442}\u{430}\u{436}\u{435}\u{43D}\u{44C} \u{434}\u{43B}\u{44F}:</li>
+          </ul>
+
+        <div class="rehabilitation-container">
+
+          <ul class="strong-rehabilitation">
+            <li>\u{412}\u{438}\u{43F}\u{440}\u{430}\u{432}\u{43B}\u{435}\u{43D}\u{43D}\u{44F} \u{43F}\u{43E}\u{441}\u{442}\u{430}\u{432}\u{438} \u{442}\u{430} \u{432}\u{430}\u{434} \u{445}\u{440}\u{435}\u{431}\u{442}\u{430}</li>
+            <img src="http://localhost:1234/pngwing.com.87092c91.png?1741463736018">
+          </ul>
+
+          <ul class="fit-rehabilitation">
+          <img src="http://localhost:1234/vertebraeRentgen.bad26897.png?1741463971706">  
+            <li>\u{417}\u{43D}\u{438}\u{436}\u{435}\u{43D}\u{43D}\u{44F} \u{442}\u{430} \u{443}\u{441}\u{443}\u{43D}\u{435}\u{43D}\u{43D}\u{44F} \u{431}\u{43E}\u{43B}\u{44C}\u{43E}\u{432}\u{438}\u{445} \u{432}\u{456}\u{434}\u{447}\u{443}\u{442}\u{442}\u{456}\u{432} \u{441}\u{43F}\u{438}\u{43D}\u{438}</li>
+          </ul>
+
+          <hr class="strong-rehabilitation">
+
+          <ul class="build-rehabilitation">
+            <li>\u{412}\u{456}\u{434}\u{43D}\u{43E}\u{432}\u{43B}\u{435}\u{43D}\u{43D}\u{44F} \u{440}\u{443}\u{445}\u{43B}\u{438}\u{432}\u{43E}\u{441}\u{442}\u{456} \u{445}\u{440}\u{435}\u{431}\u{442}\u{430} \u{442}\u{430} \u{441}\u{443}\u{433}\u{43B}\u{43E}\u{431}\u{456}\u{432}</li>
+            <img class="rehabilitation" src=http://localhost:1234/%D0%A1%D1%83%D0%B3%D0%BB%D0%BE%D0%B1%D0%B8.b0932930.png?1741535295376">
+          </ul>
+
+          <ul class="grow-rehabilitation">
+          <li>\u{423}\u{441}\u{443}\u{43D}\u{435}\u{43D}\u{43D}\u{44F} \u{437}\u{43C}\u{456}\u{449}\u{435}\u{43D}\u{44C} \u{445}\u{440}\u{435}\u{431}\u{446}\u{456}\u{432}</li>
+          <img class="lower" src="http://localhost:1234/%D0%A5%D1%80%D0%B5%D0%B1%D0%B5%D1%82.d5261fd3.png?1741530583033">   
+          </ul>
+
+          <img class="lower-rehabilitation" src="http://localhost:1234/Lumbar3.b719343b.jfif?1741538015008">   
+          </ul>
+
+          <hr class="grow-rehabilitation">
+
+          <ul class="upperFit-rehabilitation">
+            <li>\u{412}\u{438}\u{43F}\u{440}\u{430}\u{432}\u{43B}\u{435}\u{43D}\u{43D}\u{44F} \u{425}-\u{43F}\u{43E}\u{434}\u{456}\u{431}\u{43D}\u{438}\u{445} \u{442}\u{430} \u{41E}-\u{43F}\u{43E}\u{434}\u{456}\u{431}\u{43D}\u{438}\u{445} \u{434}\u{435}\u{444}\u{43E}\u{440}\u{43C}\u{430}\u{446}\u{456}\u{439} \u{43D}\u{456}\u{433}, \u{43F}\u{43B}\u{43E}\u{441}\u{43A}\u{43E}\u{441}\u{442}\u{43E}\u{43F}\u{43E}\u{441}\u{442}\u{456}</li>
+            
+            <img class="foot" src="http://localhost:1234/ploskostopia2.d3912682.png?1741546874899">
+
+            <img class="man" src="http://localhost:1234/OandX.5be3b8e6.png?1741544999888">
+          </ul>
+
+          <ul class="flexBody-rehabilitation"> 
+          <img class="body-rehabilitation" src="http://localhost:1234/rehabilitation.3fb295a3.png?1741548997177">  
+            <li>\u{412}\u{456}\u{434}\u{43D}\u{43E}\u{432}\u{43B}\u{435}\u{43D}\u{43D}\u{44F} \u{444}\u{456}\u{437}\u{438}\u{447}\u{43D}\u{43E}\u{457} \u{430}\u{43A}\u{442}\u{438}\u{432}\u{43D}\u{43E}\u{441}\u{442}\u{456} \u{43F}\u{456}\u{441}\u{43B}\u{44F} \u{442}\u{440}\u{430}\u{432}\u{43C}, \u{43F}\u{43E}\u{440}\u{430}\u{43D}\u{435}\u{43D}\u{44C}</li>
+          </ul>
+
+          <hr class="body-rehabilitation">
+          
+          <button class="btn-rehabilitation">\u{41E}\u{417}\u{414}\u{41E}\u{420}\u{41E}\u{412}\u{41B}\u{42E}\u{404}\u{41C}\u{41E}\u{421}\u{42F}</button>
+
+        </div>  
+
+      </div>
+    `;
+    }
+    render() {
+        const rehabilitationElement = document.createElement('div');
+        rehabilitationElement.className = "rehabilitation-container";
+        rehabilitationElement.id = "rehabilitation";
+        rehabilitationElement.innerHTML = this.getTemplate();
+        this.rehabilitationElement = rehabilitationElement;
+    // const img1 = document.createElement('img');
+    //       img1.className = "fitness-img"; 
+    //       img1.src = new URL('./img/rehabilitation.png', import.meta.url);  
+    //       rehabilitationElement.append(img1);
+    }
+}
+exports.default = Rehabilitation;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["81xzG","l7cOz"], "l7cOz", "parcelRequire94c2")
 

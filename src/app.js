@@ -11,8 +11,8 @@ const fitness = new Fitness();
 import Weightlifting from './weightlifting/weightlifting.js';
 const weightlifting = new Weightlifting();
 
-// import Rehabilitation from './rehabilitation/rehabilitation.js';
-// const rehabilitation = new Rehabilitation();
+import Rehabilitation from './rehabilitation/rehabilitation.js';
+const rehabilitation = new Rehabilitation();
 
 // import About from './about/about.js';
 // const about = new About();
@@ -26,7 +26,7 @@ export default class App {
     root.append(home.homeElement);
     root.append(fitness.fitnessElement);
     root.append(weightlifting.weightliftingElement);
-    // root.append(rehabilitation.rehabilitationElement);
+    root.append(rehabilitation.rehabilitationElement);
     // root.append(about.aboutElement);
   }
 
