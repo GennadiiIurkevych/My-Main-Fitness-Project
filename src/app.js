@@ -14,6 +14,10 @@ const weightlifting = new Weightlifting();
 import Rehabilitation from './rehabilitation/rehabilitation.js';
 const rehabilitation = new Rehabilitation();
 
+import Price from './price/price.js';
+const price = new Price();
+
+
 // import About from './about/about.js';
 // const about = new About();
 export default class App {
@@ -27,6 +31,8 @@ export default class App {
     root.append(fitness.fitnessElement);
     root.append(weightlifting.weightliftingElement);
     root.append(rehabilitation.rehabilitationElement);
+    root.append(price.priceElement);
+
     // root.append(about.aboutElement);
   }
 

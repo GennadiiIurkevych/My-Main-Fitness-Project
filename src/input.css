@@ -3,6 +3,7 @@
 @import url(./fitness/fitnes.css);
 @import url(./weightlifting/weightlifting.css);
 @import url(./rehabilitation/rehabilitation.css);
+@import url(./price/price.css);
 
 @tailwind base;
 @tailwind components;

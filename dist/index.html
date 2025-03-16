@@ -4,9 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My First Parcel App</title>
-  <!-- <link rel="stylesheet" href="input.css" /> -->
-  <!-- <link href="./output.css" rel="stylesheet"> -->
   <link href="/index.812b439a.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -156,14 +155,14 @@
       this[globalName] = mainExports;
     }
   }
-})({"81xzG":[function(require,module,exports,__globalThis) {
+})({"9XsWn":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "da783fa90b49d72a";
+module.bundle.HMR_BUNDLE_ID = "51e05d124410917b";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -609,7 +608,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     }
 }
 
-},{}],"l7cOz":[function(require,module,exports,__globalThis) {
+},{}],"7RQx3":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _appJs = require("./app.js");
 var _appJsDefault = parcelHelpers.interopDefault(_appJs);
@@ -628,11 +627,14 @@ var _weightliftingJs = require("./weightlifting/weightlifting.js");
 var _weightliftingJsDefault = parcelHelpers.interopDefault(_weightliftingJs);
 var _rehabilitationJs = require("./rehabilitation/rehabilitation.js");
 var _rehabilitationJsDefault = parcelHelpers.interopDefault(_rehabilitationJs);
+var _priceJs = require("./price/price.js");
+var _priceJsDefault = parcelHelpers.interopDefault(_priceJs);
 const header = new (0, _headerJsDefault.default)();
 const home = new (0, _homeJsDefault.default)();
 const fitness = new (0, _fitnessJsDefault.default)();
 const weightlifting = new (0, _weightliftingJsDefault.default)();
 const rehabilitation = new (0, _rehabilitationJsDefault.default)();
+const price = new (0, _priceJsDefault.default)();
 class App {
     constructor(){
         this.render();
@@ -643,12 +645,13 @@ class App {
         root.append(fitness.fitnessElement);
         root.append(weightlifting.weightliftingElement);
         root.append(rehabilitation.rehabilitationElement);
+        root.append(price.priceElement);
     // root.append(about.aboutElement);
     }
 }
 exports.default = App;
 
-},{"./header/header.js":"bezI1","./home/home.js":"3ePZT","./fitness/fitness.js":"1EEvU","./weightlifting/weightlifting.js":"i1HU5","./rehabilitation/rehabilitation.js":"kj8Kt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bezI1":[function(require,module,exports,__globalThis) {
+},{"./header/header.js":"bezI1","./home/home.js":"3ePZT","./fitness/fitness.js":"1EEvU","./weightlifting/weightlifting.js":"i1HU5","./rehabilitation/rehabilitation.js":"kj8Kt","./price/price.js":"4fVED","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bezI1":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 class Header {
@@ -728,10 +731,10 @@ class Header {
 }
 exports.default = Header;
 
-},{"93c4abb6d78c8bd9":"dUxb3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dUxb3":[function(require,module,exports,__globalThis) {
-module.exports = require("d6cd5f400d587ed3").getBundleURL('iKUmX') + "Iron bees logo.f941a0f6.jpg" + "?" + Date.now();
+},{"93c4abb6d78c8bd9":"hq8AP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hq8AP":[function(require,module,exports,__globalThis) {
+module.exports = require("5adf22bace61ac77").getBundleURL('71Pe9') + "Iron bees logo.f941a0f6.jpg" + "?" + Date.now();
 
-},{"d6cd5f400d587ed3":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
+},{"5adf22bace61ac77":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -838,10 +841,10 @@ class Home {
 }
 exports.default = Home;
 
-},{"3c284f6f27cd6d98":"4unXG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4unXG":[function(require,module,exports,__globalThis) {
-module.exports = require("11a22d013adbbfa").getBundleURL('iKUmX') + "Boy-Girl4.201ed4fe.png" + "?" + Date.now();
+},{"3c284f6f27cd6d98":"gEWN6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gEWN6":[function(require,module,exports,__globalThis) {
+module.exports = require("a6b2d472690a9b7f").getBundleURL('71Pe9') + "Boy-Girl4.201ed4fe.png" + "?" + Date.now();
 
-},{"11a22d013adbbfa":"lgJ39"}],"1EEvU":[function(require,module,exports,__globalThis) {
+},{"a6b2d472690a9b7f":"lgJ39"}],"1EEvU":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 class Fitness {
@@ -1081,7 +1084,101 @@ class Rehabilitation {
 }
 exports.default = Rehabilitation;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["81xzG","l7cOz"], "l7cOz", "parcelRequire94c2")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4fVED":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+class Price {
+    constructor(price){
+        this.price = price;
+        this.render();
+    }
+    getTemplate() {
+        return `
+      <section class="prices" id="prices">
+    <h2 class="heading-price">\u{412}\u{410}\u{420}\u{422}\u{406}\u{421}\u{422}\u{42C} \u{41F}\u{41E}\u{421}\u{41B}\u{423}\u{413}</h2>
+    <h3 class="sub-heading-price">\u{421}\u{442}\u{430}\u{442}\u{438} \u{447}\u{43B}\u{435}\u{43D}\u{43E}\u{43C} \u{43D}\u{430}\u{448}\u{43E}\u{433}\u{43E} \u{441}\u{43F}\u{43E}\u{440}\u{442}\u{438}\u{432}\u{43D}\u{43E}\u{433}\u{43E} \u{43A}\u{43B}\u{443}\u{431}\u{443} \u{432}\u{438} \u{43C}\u{43E}\u{436}\u{435}\u{442}\u{435} \u{431}\u{435}\u{437}\u{43A}\u{43E}\u{448}\u{442}\u{43E}\u{432}\u{43D}\u{43E}. \u{414}\u{43B}\u{44F} \u{446}\u{44C}\u{43E}\u{433}\u{43E} \u{442}\u{440}\u{435}\u{431}\u{430} \u{43B}\u{438}\u{448}\u{435} \u{43F}\u{456}\u{434}\u{43F}\u{438}\u{441}\u{430}\u{442}\u{438}\u{441}\u{44F}.</h3>
+
+    <div class="box-container">
+      
+      <div class="price-box" data-aos="zoom-in" data-aos-delay="50">
+        <div class="box-content">
+          <h3>\u{41A}\u{43E}\u{43D}\u{441}\u{443}\u{43B}\u{44C}\u{442}\u{430}\u{446}\u{456}\u{44F}</h3>
+          <h4>200 \u{433}\u{440}\u{43D}.</h4>
+          <span class="prices">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16"   height="16" fill="currentColor" class="bi bi-check-square" viewBox="0 0 16 16">
+              <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+              <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
+            </svg>
+          \u{429}\u{43E}\u{434}\u{43E} \u{442}\u{440}\u{435}\u{43D}\u{443}\u{432}\u{430}\u{43D}\u{44C}</span>
+          <span class="prices">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16"   height="16" fill="currentColor" class="bi bi-check-square" viewBox="0 0 16 16">
+              <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+              <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
+            </svg>
+            \u{429}\u{43E}\u{434}\u{43E} \u{445}\u{430}\u{440}\u{447}\u{443}\u{432}\u{430}\u{43D}\u{43D}\u{44F}</span>
+        </div>
+        <button class="btn price-btn">\u{417}\u{410}\u{41C}\u{41E}\u{412}\u{418}\u{422}\u{418}</button>
+      </div>
+      
+      <div class="price-box" data-aos="zoom-in" data-aos-delay="150">
+        <div class="box-content">
+          <h3>\u{421}\u{43A}\u{43B}\u{430}\u{434}\u{430}\u{43D}\u{43D}\u{44F} \u{43F}\u{440}\u{43E}\u{433}\u{440}\u{430}\u{43C}\u{438} \u{442}\u{440}\u{435}\u{43D}\u{443}\u{432}\u{430}\u{43D}\u{44C}</h3>
+          <h4>1000 \u{433}\u{440}\u{43D}.</h4>
+          <span class="prices">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16"   height="16" fill="currentColor" class="bi bi-check-square" viewBox="0 0 16 16">
+              <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+              <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
+            </svg>
+          \u{41F}\u{43B}\u{430}\u{43D} \u{43D}\u{430} 5-6 \u{442}\u{438}\u{436}\u{43D}\u{456}\u{432}</span>
+          <span class="prices">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16"   height="16" fill="currentColor" class="bi bi-check-square" viewBox="0 0 16 16">
+              <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+              <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
+            </svg>
+            \u{420}\u{43E}\u{437}\u{43F}\u{438}\u{441} \u{445}\u{430}\u{440}\u{447}\u{443}\u{432}\u{430}\u{43D}\u{43D}\u{44F}</span>
+        </div>
+        <button class="btn price-btn">\u{417}\u{410}\u{41C}\u{41E}\u{412}\u{418}\u{422}\u{418}</button>
+      </div>
+      
+      <div class="price-box" data-aos="zoom-in" data-aos-delay="300">
+        <div class="box-content">
+          <h3>\u{41E}\u{43D}\u{43B}\u{430}\u{439}\u{43D} \u{442}\u{440}\u{435}\u{43D}\u{443}\u{432}\u{430}\u{43D}\u{43D}\u{44F}</h3>
+          <h4>500 \u{433}\u{440}\u{43D}.</h4>
+          <span class="prices">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16"   height="16" fill="currentColor" class="bi bi-check-square" viewBox="0 0 16 16">
+              <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+              <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
+            </svg>
+          \u{422}\u{440}\u{438}\u{432}\u{430}\u{43B}\u{456}\u{441}\u{442}\u{44C} 60-80 \u{445}\u{432}.</span>
+          <span class="prices">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16"   height="16" fill="currentColor" class="bi bi-check-square" viewBox="0 0 16 16">
+              <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+              <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
+            </svg>
+            \u{412}\u{430}\u{448}\u{430} \u{437}\u{440}\u{443}\u{447}\u{43D}\u{430} \u{43B}\u{43E}\u{43A}\u{430}\u{446}\u{456}\u{44F}</span>
+        </div>
+        <button class="btn price-btn">\u{417}\u{410}\u{41C}\u{41E}\u{412}\u{418}\u{422}\u{418}</button>
+      </div>
+
+    </div>
+
+  </section>
+    `;
+    }
+    render() {
+        const priceElement = document.createElement('div');
+        priceElement.className = "price-container";
+        priceElement.innerHTML = this.getTemplate();
+        this.priceElement = priceElement;
+    // const img1 = document.createElement('img');
+    //       img1.className = "fitness-img"; 
+    //       img1.src = new URL('./img/rehabilitation.png', import.meta.url);  
+    //       rehabilitationElement.append(img1);
+    }
+}
+exports.default = Price;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["9XsWn","7RQx3"], "7RQx3", "parcelRequire94c2")
 
 </script>
 </body>
