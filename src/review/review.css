@@ -1,0 +1,128 @@
+.review input[type=radio] {
+  display: none;
+}
+
+.review .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem; 
+}
+
+.review .row .content {
+  flex: 1 1 40rem;
+  text-align: center;
+}
+
+.review .row .content h2 {
+  font-size: var(--medium-fz);
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.review .row .content h3 {
+  font-size: var(--small-fz);
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.review .row .content p {
+  font-size: var(--small-fz);
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+
+.review .row .content .controls {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.review .row .content .controls label {
+  display: inline-block;
+  margin: 0 .5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.review .row .content .controls label:hover {
+  background-color: var(--main-color);
+}
+
+.review .row .box-container {
+  flex: 1 1 40rem;
+  display: flex;
+  overflow: hidden;
+  border-radius: .5rem;
+}
+
+.review .row .box-container .review-box {
+  flex: 1 0 100%;
+  text-align: center;
+  background-color: var(--ligth-black);
+  padding: 3rem 2rem;
+  box-shadow: var(--box-shadow);
+}
+
+.review .row .box-container .review-box img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  margin-left: 13.5rem;
+}
+
+.review .row .box-container .review-box h3 {
+  font-size: var(--small-fz);
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.review .row .box-container .review-box p {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+}
+
+.review .row .box-container .review-box .stars svg.bi-star-fill {
+  font-size: var(--small-fz);
+  color:  rgba(4, 14, 152, 0.947);
+  display: inline;
+  width: 2rem;
+  height: 2rem;
+  margin: 0.3rem;
+}
+
+#r1:checked ~ .row .box-container .review-box:first-child {
+  margin-left: 0%;
+}
+
+#r2:checked ~ .row .box-container .review-box:first-child {
+  margin-left: -100%;
+}
+
+#r3:checked ~ .row .box-container .review-box:first-child {
+  margin-left: -200%;
+}
+
+#r4:checked ~ .row .box-container .review-box:first-child {
+  margin-left: -300%;
+}
+
+@media screen and (max-width: 420px) {
+  div.content p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  div.content a {
+    margin-left: 0;
+  }
+
+  .review .row .box-container .review-box img {
+    margin-left: 15rem;
+  }
+}

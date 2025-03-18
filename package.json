@@ -10,6 +10,10 @@
     "watch": "parcel watch",
     "build": "parcel build"
   },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "parcel": "^2.13.3",

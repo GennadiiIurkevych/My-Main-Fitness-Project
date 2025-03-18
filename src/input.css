@@ -1,9 +1,15 @@
+
+/* @import "bootstrap/scss/bootstrap"; */
+
 @import url(./header/header.css);
 @import url(./home/home.css);
 @import url(./fitness/fitnes.css);
 @import url(./weightlifting/weightlifting.css);
 @import url(./rehabilitation/rehabilitation.css);
 @import url(./price/price.css);
+@import url(./review/review.css);
+
+
 
 @tailwind base;
 @tailwind components;

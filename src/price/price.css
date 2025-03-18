@@ -95,3 +95,10 @@ position: relative;
 button.price-btn:hover {
   box-shadow: 0 .3rem .8rem #ff0;
 }
+
+@media screen and (max-width: 420px) {
+  button.price-btn {
+    margin-left: -.75rem;font-size: 1.5rem;
+    width: 16rem;
+  }
+}

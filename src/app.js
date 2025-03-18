@@ -1,4 +1,6 @@
 
+// import * as bootstrap from 'bootstrap';
+
 import Header from './header/header.js';
 const header = new Header();
 
@@ -17,6 +19,10 @@ const rehabilitation = new Rehabilitation();
 import Price from './price/price.js';
 const price = new Price();
 
+import Review from './review/review.js';
+const review = new Review();
+
+
 
 // import About from './about/about.js';
 // const about = new About();
@@ -32,6 +38,7 @@ export default class App {
     root.append(weightlifting.weightliftingElement);
     root.append(rehabilitation.rehabilitationElement);
     root.append(price.priceElement);
+    root.append(review.reviewElement);
 
     // root.append(about.aboutElement);
   }
