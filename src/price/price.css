@@ -1,0 +1,104 @@
+.prices {
+  padding-top: 1rem;
+  margin: 2rem;
+}
+
+h2.heading-price {
+  font-size: var(--big-fz);
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  font-weight: 800;
+  line-height: 4rem;
+  text-align: center;
+}
+
+h3.sub-heading-price {
+  color: var(--text-color);
+  margin-top: -1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-left: 2rem;
+}
+
+.prices .box-container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
+  gap: 2rem;
+}
+
+.prices .box-container .price-box {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--ligth-black);
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem;
+  border: .2rem solid transparent;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.prices .box-container .price-box:hover {
+  border: .2rem solid var(--main-color);
+}
+
+.prices .box-container .price-box .box-content {
+  flex: 1;
+  margin-bottom: 2rem; 
+}
+
+.prices .box-container .price-box .box-content h3 {
+  margin-bottom: 1rem;
+  font-size: var(--medium-fz);
+  color: var(--text-color);  
+}
+
+.prices .box-container .price-box .box-content h4 {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: var(--text-color);
+  border-bottom: .2rem solid var(--text-color); 
+}
+
+.prices .box-container .price-box .box-content span {
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+  font-size: 1.6rem;
+  display: flex;
+  align-content: center;
+  gap: 1rem;
+  margin-left: 0;
+}
+
+svg.bi-check-square {
+  color: var(--text-color);
+  margin-top: 1rem;
+}
+
+button.price-btn {
+color: var(--text-color);
+cursor: pointer;
+z-index: 1;
+background-color: #040e98f1;
+border-radius: .5rem;
+margin-bottom: 1rem;
+margin-left: 0;
+padding: 1rem 2rem;
+font-size: 2rem;
+font-weight: 700;
+position: relative;
+}
+
+button.price-btn:hover {
+  box-shadow: 0 .3rem .8rem #ff0;
+}
+
+@media screen and (max-width: 420px) {
+  button.price-btn {
+    margin-left: -.75rem;font-size: 1.5rem;
+    width: 16rem;
+  }
+}

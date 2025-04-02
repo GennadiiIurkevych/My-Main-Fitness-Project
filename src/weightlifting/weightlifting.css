@@ -1,0 +1,316 @@
+
+section.services {
+  background-color: rgba(4, 14, 152, 0.947);
+}
+
+.heading {
+  margin-bottom: 1rem;
+  font-size: var(--big-fz);
+  font-weight: 800;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.services .services-img img {
+  border-radius: 1rem;
+  box-shadow:var(--box-shadow);
+  max-width: 77rem;
+  margin-left: 2rem;
+}
+
+.weightlifting-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: var(--max-width);
+  margin-top: 2rem;
+  margin-left: 2rem;
+  max-height: fit-content;
+}
+
+.weightlifting-section::before {
+  content: url("http://localhost:1234/Olimpic420.cf73641a.png?1739224998018");
+  position: absolute;
+  top: 12rem;
+  right: 2rem;
+  color: var(--text-color);
+  opacity: 0.08;
+}
+
+.weightlifting-section .weightlifting-content {
+  flex: 1 1 40rem;
+}
+
+.weightlifting-content .weightlifting-img {
+  flex: 1 1 40rem;
+}
+
+.weightlifting-content {
+  margin-left: 3rem;
+}
+
+.weightlifting-content h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-top: -1rem;
+}
+
+.weightlifting-content h2 {
+  margin-bottom: 1rem;
+  font-size: var(--big-fz);
+  font-weight: 800;
+  line-height: 5rem;
+  color: var(--text-color);
+}
+
+span.weightlifting  {
+  -webkit-text-fill-color: var(--black);
+  -webkit-text-stroke: 3px var(--main-color);
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.weightlifting-content p {
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  max-width: 46rem;
+  line-height: 2.2rem;
+}
+
+.club-name {
+  position: relative;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--main-color);
+  z-index: 2;
+}
+
+span.club-name:hover {
+  font-size: 3rem; 
+}
+
+.weightlifting-img {
+  z-index: 1;
+  max-width: 28rem;
+  margin-top: -41rem;
+  margin-left: 48rem;
+  position: relative;
+}
+
+.btn-weightlifting {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--black);
+  background-color: var(--main-color);
+  border-radius: .5rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.btn-weightlifting:hover {
+  box-shadow: 0 .3rem 1rem var(--main-color);
+}
+
+.cleanMan {
+  margin-left: 1rem;
+  max-width: 38%;
+  margin-top: -4rem;
+}
+
+.clean_jerk {
+  -webkit-text-fill-color: var(--black);
+  -webkit-text-stroke: 3px var(--main-color);
+  margin-left: 38rem;
+  font-size: 4rem;
+  font-weight: 800;
+  position: absolute;
+  margin-top: -26rem;
+}
+
+.clean_jerkMan {
+  margin-top: -19rem;
+  margin-left: 56rem;
+  max-width: 26rem;
+}
+
+.clean-jerk p {
+  color: var(--text-color);
+  max-width: 35rem;
+  margin-top: -17rem;
+  margin-bottom: 1rem;
+  margin-left: 25rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  position: absolute;
+}
+
+
+@media screen and (max-width: 420px) {
+
+  .weightlifting-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .weightlifting-content {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .weightlifting-content h4 {
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+
+  .weightlifting-content h2 {
+    font-size: 2rem;
+    margin-left: 10rem;
+  }
+
+  .weightlifting-content h2 span {
+    font-size: 5.5rem;
+  }
+
+  .btn-weightlifting {
+    width: 20rem;
+    margin-left: 9rem;
+  }
+
+  .weightlifting-img {
+    max-width: 24rem;
+    margin-top: 1rem;
+    margin-left: 8rem;
+  }
+
+  span.weightlifting {
+    font-size: 3rem;
+    margin-left: 3rem;
+}
+
+.clean_jerk {
+  margin-top: -30rem;
+  margin-left: 7rem;
+}
+
+.clean-jerk p {
+  margin-left: 1rem;
+  margin-top: -.5rem;
+}
+
+.cleanMan {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  max-width: 82%;
+}
+
+.clean_jerkMan {
+  max-width: 28rem;
+  margin-top: 9rem;
+  margin-left: 4rem;
+}
+
+} 
+
+img2 {
+  width: 100%;
+}
+
+img.snatchMan {
+  position: absolute;
+  max-width: 42rem;
+  margin-top: -2rem;
+  margin-left: 38rem;
+}
+
+img.snatchWoman {
+  position: relative;
+  max-width: 18rem;
+}
+
+.snatch {
+  flex: 1 1 40rem;
+}
+
+.snatch img {
+  flex: 1 1 40rem;
+}
+
+.snatch {
+  display: flex;
+}
+
+span.snatch  {
+  -webkit-text-fill-color: var(--black);
+  -webkit-text-stroke: 3px var(--main-color);
+  font-size: 4rem;
+  font-weight: 800;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.snatch p {
+  color: var(--text-color);
+  max-width: 35rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  position: absolute;
+  margin-left: 17rem;
+  margin-top: 10rem;
+}
+
+@media screen and (max-width: 420px) {
+
+  .services .services-img img {
+    max-width: 40rem;
+  }
+
+  .snatch {
+    flex-direction: column;
+    max-width: 100rem;
+  }
+
+  img.snatchMan {
+    margin-top: 0;
+    margin-left: -14rem;
+}
+
+  span.snatch  {
+    width: 15rem;
+    margin-top: -2rem;
+    margin-left: 1rem;
+    margin-bottom: 26rem;
+}
+
+.snatch p {
+  max-width: 40rem;
+  margin-left: -11rem;
+  margin-top: 29rem;
+
+}
+
+img.snatchWoman {
+  max-width: 19rem;
+  position: absolute;
+  margin-top: 40rem;
+  margin-left: -1rem;
+
+}
+
+.weightlifting-section::before {
+  top: 55rem;
+  right: 4rem;
+}
+
+.btn {
+ margin-left: 10rem; 
+}
+
+}

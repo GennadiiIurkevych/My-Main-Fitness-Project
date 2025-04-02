@@ -1,0 +1,173 @@
+
+.home-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 2rem 3rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+
+}
+
+.home-section .home-content {
+  flex: 1 1 40rem;
+}
+
+.home-content .home-img {
+  flex: 1 1 40rem;
+}
+
+.home-content {
+  margin-left: 3rem;
+}
+
+.home-section::before {
+  content: "FITNESS";
+  position: absolute;
+  top: 3rem;
+  right: 10rem;
+  line-height: 7rem;
+  font-weight: 800;
+  color: var(--text-color);
+  opacity: 0.05;
+  font-size: 18rem;
+}
+
+.home-content::before {
+  content: "WEIGHTLIFTING";
+  position: absolute;
+  top: 15rem;
+  right: 2rem;
+  line-height: 7rem;
+  font-weight: 800;
+  color: var(--text-color);
+  opacity: 0.05;
+  font-size: 10rem;
+}
+
+.home-content h4 {
+  margin-bottom: 1rem; 
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--text-color);
+}
+
+.home-content h2 {
+  margin-bottom: 1rem;
+  font-size: var(--big-fz);
+  font-weight: 800;
+  line-height: 6rem;
+  color: var(--text-color);
+}
+
+.home-content h2 span {
+  -webkit-text-fill-color: var(--black);
+  -webkit-text-stroke: 4px var(--main-color);
+  font-size: 5.5rem;
+}
+
+.home-content p {
+  margin-bottom: 2rem;
+  color: var(--text-color);
+  font-size: 1.6rem;
+}
+
+.club-name {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+span.club-name:hover {
+  font-size: 3rem; 
+}
+
+.home-img {
+  width: 500px;
+  height: 650px;
+  margin-right: 2.5rem;
+  z-index: 1;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--black);
+  background-color: var(--main-color);
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0 .3rem 1rem var(--main-color);
+}
+
+.bg-blur {
+  position: absolute;
+  box-shadow: 0 0 100rem 8rem var(--main-color);
+  z-index: -1;
+}
+
+@media screen and (max-width: 420px) {
+
+  .home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-section::before {
+    content: 'FITNESS';
+    position: absolute;
+    top: 54%;
+    right: 6rem;
+    line-height: 7rem;
+    font-weight: 800;
+    color: var(--text-color);
+    opacity: 0.05;
+    font-size: 9rem;
+  }
+
+  .home-content {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .home-content::before {
+    content: "WEIGHTLIFTING";
+    position: absolute;
+    top: 66%;
+    right: 3rem;
+    line-height: 7rem;
+    font-weight: 800;
+    color: var(--text-color);
+    opacity: 0.05;
+    font-size: 5rem;
+  }
+
+  .home-content h4 {
+    font-size: 2.5rem;
+  }
+
+  .home-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .home-content h2 span {
+    font-size: 5.5rem;
+  }
+
+  .btn {
+    width: 20rem;
+  }
+
+  .home-img {
+    margin-top: -5rem;
+    width: 444px;
+    height: 544px;
+  }
+} 

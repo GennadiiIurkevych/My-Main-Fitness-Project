@@ -1,0 +1,328 @@
+hr {
+  margin: 2rem 9rem  !important;
+  border-top-color: rgba(233, 233, 241, 0.069) !important;
+  border-top-width: 2px !important;
+}
+
+section ul li {
+  font-size: var(--big-fz);
+  color: var(--main-color);
+  margin-left: 2rem;
+  border: 3px solid  rgba(4, 14, 152, 0.947);
+  border-radius: 1rem;
+  padding: .5rem;
+  height: fit-content;
+  background: linear-gradient(135deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border:  2px solid rgba(233, 233, 241, 0.069);
+  box-shadow: 0 8px 32px 0 rgba (0, 0, 0, .8);
+  text-align: center;
+}
+
+ul.strong-rehabilitation {
+  display: flex;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  line-height: 2.5rem;
+}
+
+ul.strong-rehabilitation img {
+  max-width: 30rem;
+  margin-right: 2rem;
+}
+
+ul.strong li.rehabilitation {
+  display: flex;
+  margin-left: 16rem;
+}
+
+ul.fit-rehabilitation {
+  display: flex;
+  max-width: 80rem;
+  margin-top: 2rem;
+  line-height: 2.5rem;
+  margin-right: 1rem;
+}
+
+ul.fit-rehabilitation>img {
+  max-width: 32rem;
+  margin-top: -23rem;
+  margin-left: 2rem;
+}
+
+ul.build-rehabilitation li {
+  max-width: 58rem;
+}
+
+img.rehabilitation {
+  max-height: 20rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+ul.grow-rehabilitation {
+  flex-direction: row-reverse;
+  max-width: 80rem;
+  margin-top: -3rem;
+  margin-right: 1rem;
+  line-height: 2.5rem;
+  display: flex;
+}
+
+ul.grow-rehabilitation>img.grow {
+  max-width: 26rem;
+  margin-top: -28rem;
+  margin-right: 28rem;
+  position: absolute;
+}
+
+ul.grow-rehabilitation img.lower {
+  max-height: 21rem;
+  margin-top: -17rem;
+  margin-right: 2rem;
+}
+
+img.lower-rehabilitation {
+  height: 20rem;
+  margin-top: -25rem;
+  margin-left: 61rem;
+  position: absolute;
+  border-radius: 2rem;
+}
+
+ul.upperFit-rehabilitation li {
+  display: flex;
+  margin-top: 1rem;
+  line-height: 2.5rem;
+  margin-right: 30rem;
+}
+
+ul.upperFit-rehabilitation img.man {
+  max-height: 20rem;
+  margin-top: 1rem;
+  margin-left: 14rem;
+  position: absolute;
+}
+
+ul.upperFit-rehabilitation img.foot {
+  max-height: 14rem;
+  margin-top: 15rem;
+  margin-left: 3rem;
+  position: absolute;
+  border-radius: 3rem;
+  transform: scale(1, -1);
+  rotate: 180deg;
+}
+
+ul.upperFit img.girl {
+  margin-top: 1rem;
+  max-height: 18rem;
+}
+
+ul.flexBody-rehabilitation {
+  display: flex;
+  line-height: 2.5rem;
+}
+
+ul.flexBody-rehabilitation>li {
+  width: 40rem;
+  margin-top: 22rem;
+  margin-left: 38rem;
+  display: flex;
+  position:relative;
+}
+
+img.body-rehabilitation {
+  max-width: 44rem;
+  margin-top: -4rem;
+  margin-left: 40rem;
+  position: absolute;
+}
+
+section.services {
+  box-shadow: var(--box-shadow);
+  background-color: var(--ligth-black);
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  padding: 1rem 0rem 1rem 0;
+  margin-right: 1.5rem;
+}
+
+div.rehabilitation-img img{
+  margin-left: 2rem;
+  width: 77rem;
+  border-radius: 1rem;
+}
+
+button.btn-rehabilitation {
+  position: relative;
+  margin-left: 28rem;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-color);
+  border-radius: .5rem;
+  cursor: pointer;
+  background-color:  rgba(4, 14, 152, 0.947);
+  z-index: 1;
+}
+
+.btn-rehabilitation:hover {
+  box-shadow: 0 .3rem .8rem yellow;
+}
+
+@media screen and (max-width: 1040px) {
+  ul.strong-rehabilitation img {
+    max-width: 30rem;
+    margin-left: 6rem;
+  }
+
+  ul.strong li.rehabilitation {
+    margin-left: 20rem;
+  }
+}
+
+@media screen and (max-width: 897px) {
+  ul.strong-rehabilitation img {
+    max-width: 30rem;
+  }
+
+  ul.fit-rehabilitation > img {
+    max-width: 28rem;
+}
+
+ul.grow-rehabilitation img.lower {
+  max-height: 21rem;
+  margin-top: -17rem;
+  margin-right: 10rem;
+}
+}
+
+@media screen and (max-width: 674px) {
+  ul.strong li.rehabilitation {
+    margin-left: 24rem;
+  }
+
+  ul.upperFit-rehabilitation img.foot {
+    max-height: 16rem;
+    margin-top: 12rem;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  hr.body-rehabilitation {
+    margin-top: 5rem !important;
+  }
+
+  ul.flexBody-rehabilitation > li {
+    width: 40rem;
+    margin-top: 25rem;
+  }
+
+  hr.body-rehabilitation {
+    margin-top: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  div.rehabilitation-img img {
+    width: 37rem;
+}
+
+ul.strong li.rehabilitation {
+  margin-left: 7rem;
+}
+
+ul.strong-rehabilitation li {
+  width: 24rem;
+  margin-left: 10rem;
+  margin-top: -1rem;
+}
+
+ul.fit-rehabilitation li {
+  margin-top: 25rem;
+  margin-left: -31rem;
+}
+
+ul.strong-rehabilitation img {
+  max-width: 28rem;
+  margin-top: 35rem;
+  position: absolute;
+}
+
+ul.fit-rehabilitation > img {
+  height: 27rem;
+  margin-top: -2rem;
+  margin-left: 8rem;
+}
+
+hr {
+  margin: 2rem 2rem !important;
+}
+
+hr.strong-rehabilitation {
+  margin-top: 29rem !important;
+}
+
+ul.build-rehabilitation li {
+  width: 30rem;
+  margin-left: 5rem;
+}
+
+ul.grow-rehabilitation img.lower {
+  max-height: 20rem;
+  margin-top: -17.5rem;
+  position: absolute;
+  margin-right: 3rem;
+}
+
+ul.grow-rehabilitation li {
+  margin-top: 4rem;
+  margin-right: 10rem;
+}
+
+img.lower-rehabilitation {
+margin-left: 11.5rem;
+margin-top: 1rem;
+}
+
+hr.grow-rehabilitation {
+  margin-top: 23rem !important;
+}
+
+ul.upperFit-rehabilitation li {
+  width: 37rem;
+  line-height: 1.2;
+}
+
+ul.upperFit-rehabilitation img.foot {
+  max-height: 7rem;
+  margin-top: 2rem;
+}
+
+ul.flexBody-rehabilitation > li {
+  width: 37rem;
+  margin-top: 19rem;
+  margin-left: 2rem;
+}
+
+img.body-rehabilitation {
+    max-width: 33rem;
+    margin-top: 24rem;
+    margin-left: 0rem;
+}
+
+hr.body-rehabilitation {
+  margin-top: 22rem !important;
+}
+
+button.btn-rehabilitation {
+  margin-top: -1rem;
+  margin-left: 8rem;
+}
+}
+
