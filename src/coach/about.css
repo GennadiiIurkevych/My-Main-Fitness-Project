@@ -1,0 +1,123 @@
+.team {
+  background-color: var(--ligth-black);
+  margin: 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+  padding-top: 1rem;
+}
+
+
+/* .team .box-container {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
+  gap: 2rem;
+
+} */
+
+.coach-info {
+  color: var(--text-color);
+  margin-left: 2rem;
+  text-align: center; 
+}
+
+.coach-name {
+  color: var(--main-color);
+  margin-top: -4rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.team .box-container .team-box {
+  border-radius: 1rem;
+  position: relative;
+  height: 40rem;
+  transition: all .5s;
+}
+
+.team .box-container .team-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  background-color: rgb(4, 52, 119);
+  margin-top: 1rem;
+}
+
+.img-about {
+  width: 48%;
+  height: 70%;
+  display: flex;
+  margin-left: 2rem;
+  gap: 1rem;
+}
+
+.team .box-container .team-box .trainer-info {
+  position: relative;
+  top: 5rem;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--ligth-black);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.team .box-container .team-box:hover .trainer-info {
+  transform: translateY(0);
+}
+
+/* .team .box-container .team-box .trainer-info h3 {
+  font-size: var(--small-fz);
+  color: var(--text-color);
+} */
+
+/* .team .box-container .team-box .trainer-info h4 {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;  
+} */
+
+.team .box-container .team-box .trainer-info .share {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  border-top: .2rem solid rgb(4, 52, 119);
+}
+
+
+.team .box-container .team-box .trainer-info .share a {
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
+.team .box-container .team-box .trainer-info .share a svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.team .box-container .team-box .trainer-info .share a:hover {
+  color: var(--main-color);
+}
+
+@media screen and (max-width: 420px) {
+  .img-about {
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .team {
+    height: 72rem;
+    margin-top: -18rem;
+  }
+  .trainer-info {
+    margin-top: 9rem;
+  }
+  .coach-info {
+    padding-right: 1rem;
+  }
+}

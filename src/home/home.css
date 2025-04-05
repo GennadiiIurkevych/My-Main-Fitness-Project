@@ -91,7 +91,7 @@ span.club-name:hover {
   z-index: 1;
 }
 
-.btn {
+.btn-home {
   display: inline-block;
   padding: 1rem 2rem;
   font-size: 2rem;
@@ -102,7 +102,7 @@ span.club-name:hover {
   cursor: pointer;
 }
 
-.btn:hover {
+.btn-home:hover {
   box-shadow: 0 .3rem 1rem var(--main-color);
 }
 

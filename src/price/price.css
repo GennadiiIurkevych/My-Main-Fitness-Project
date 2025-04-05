@@ -14,10 +14,9 @@ h2.heading-price {
 
 h3.sub-heading-price {
   color: var(--text-color);
-  margin-top: -1rem;
   font-size: 2rem;
   font-weight: 600;
-  margin-left: 2rem;
+  text-align: center;
 }
 
 .prices .box-container {
@@ -78,11 +77,31 @@ svg.bi-check-square {
   margin-top: 1rem;
 }
 
+.btn-price {
+  display: flex;
+  max-width: 18rem;
+  padding: .5rem 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--black);
+  background-color: var(--main-color);
+  border-radius: .5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 31.5rem;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.btn-price:hover {
+  box-shadow: 0 .3rem 1rem var(--main-color);
+}
+
 button.price-btn {
-color: var(--text-color);
+color: var(--text-color) !important;
 cursor: pointer;
 z-index: 1;
-background-color: #040e98f1;
+background-color:rgb(4, 52, 119) !important;
 border-radius: .5rem;
 margin-bottom: 1rem;
 margin-left: 0;
@@ -97,8 +116,23 @@ button.price-btn:hover {
 }
 
 @media screen and (max-width: 420px) {
+  h2.heading-price {
+    font-size: 30px;
+    margin-bottom: 0rem;
+  }
+
   button.price-btn {
     margin-left: -.75rem;font-size: 1.5rem;
     width: 16rem;
   }
+  .btn-price {
+    margin-left: 11rem;
+  }
+  .review .row {
+    margin-left: 2rem;
+  }
+  .content {
+    margin-left: -2rem;
+  }
+
 }

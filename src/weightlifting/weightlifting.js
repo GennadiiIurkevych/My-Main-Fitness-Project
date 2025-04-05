@@ -18,34 +18,34 @@ export default class Weightlifting {
         </p>
         <button class="btn-weightlifting">ОБИРАЄМО</button>
         
-        <img class="weightlifting-img" src="http://localhost:1234/Clean_and_jeck.931196d1.png?1739031864325">
+        <img class="weightlifting-img" data-aos="fade-up-left" data-aos-delay="200" src="http://localhost:1234/Clean_and_jeck.931196d1.png?1739031864325">
 
 
       </div>
 
       <div class="snatch">
-          <img class="snatchWoman" src="http://localhost:1234/WL_2.14862fb7.png?1739215770766">
+          <img class="snatchWoman" data-aos="fade-up-right" data-aos-delay="200" src="http://localhost:1234/WL_2.14862fb7.png?1739215770766">
           
-            <span class="snatch">РИВОК</span>
+            <span class="snatch" data-aos="fade-down">РИВОК</span>
         
-        <p>
+        <p data-aos="fade-up">
           Перший вид програми олімпійського двоборста. Вправа характеризується швидкісно-силовою роботою і вимагає високий рівень координації та гнучкості. <br> Не важливо який у вас початковий рівень необхідних якостей, - важливо! на скільки ви готові їх опанувати.
         </p>
           
-        <img class="snatchMan" src="http://localhost:1234/weightlifting-Snatch.861f042d.png?1739216047701">
+        <img class="snatchMan" data-aos="flip-right" data-aos-delay="200" src="http://localhost:1234/weightlifting-Snatch.861f042d.png?1739216047701">
 
       </div>
 
       <div class="clean-jerk">
-         <img class="cleanMan" src="http://localhost:1234/ilya.d98b69ae.png?1741420192656">
+         <img class="cleanMan" data-aos="flip-down" src="http://localhost:1234/ilya.d98b69ae.png?1741420192656">
           
-            <span class="clean_jerk">ПОШТОВХ</span>
+            <span class="clean_jerk" data-aos="fade-left">ПОШТОВХ</span>
         
-        <p>
+        <p data-aos="flip-left">
           Другий вид програми олімпійського двоборста, що складається з двох частин - підйому штанги на груди та поштовху від грудей. Вправа характеризується швидкісно-силовою та силовою роботою і, також,  вимагає високий рівень координації та гнучкості.
         </p>
           
-        <img class="clean_jerkMan" src="http://localhost:1234/WL_CleanWoman.f96a0054.png?1741419844473">
+        <img class="clean_jerkMan" data-aos="zoom-in" src="http://localhost:1234/WL_CleanWoman.f96a0054.png?1741419844473">
       </div>
     `
   }
@@ -59,7 +59,7 @@ export default class Weightlifting {
 
     // const img = document.createElement('img');
     //       img.className = "weightlifting-img"; 
-    //       img.src = new URL('./img/ilya.png/', import.meta.url);
+    //       img.src = new URL('./img/WL_CleanWoman.png', import.meta.url);
           
     //       weightliftingElement.append(img);
 

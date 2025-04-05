@@ -181,6 +181,7 @@ span.club-name:hover {
   .btn-weightlifting {
     width: 20rem;
     margin-left: 9rem;
+    margin-top: 0rem;
   }
 
   .weightlifting-img {
@@ -192,29 +193,29 @@ span.club-name:hover {
   span.weightlifting {
     font-size: 3rem;
     margin-left: 3rem;
-}
+  }
 
-.clean_jerk {
-  margin-top: -30rem;
-  margin-left: 7rem;
-}
+  .clean_jerk {
+    margin-top: -30rem;
+    margin-left: 7rem;
+  }
 
-.clean-jerk p {
-  margin-left: 1rem;
-  margin-top: -.5rem;
-}
+  .clean-jerk p {
+    margin-left: 1rem;
+    margin-top: -.5rem;
+  }
 
-.cleanMan {
-  margin-top: 1rem;
-  margin-left: 3rem;
-  max-width: 82%;
-}
+  .cleanMan {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    max-width: 82%;
+  }
 
-.clean_jerkMan {
-  max-width: 28rem;
-  margin-top: 9rem;
-  margin-left: 4rem;
-}
+  .clean_jerkMan {
+    max-width: 28rem;
+    margin-top: 9rem;
+    margin-left: 4rem;
+  }
 
 } 
 
@@ -307,10 +308,6 @@ img.snatchWoman {
 .weightlifting-section::before {
   top: 55rem;
   right: 4rem;
-}
-
-.btn {
- margin-left: 10rem; 
 }
 
 }

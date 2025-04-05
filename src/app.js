@@ -22,10 +22,12 @@ const price = new Price();
 import Review from './review/review.js';
 const review = new Review();
 
+import About from './coach/about.js';
+const about = new About();
 
+import Contacts from './contacts/contacts.js';
+const contacts = new Contacts();
 
-// import About from './about/about.js';
-// const about = new About();
 export default class App {
   constructor () {
   this.render();
@@ -39,8 +41,8 @@ export default class App {
     root.append(rehabilitation.rehabilitationElement);
     root.append(price.priceElement);
     root.append(review.reviewElement);
-
-    // root.append(about.aboutElement);
+    root.append(about.aboutElement);
+    root.append(contacts.contactsElement);
   }
 
 }

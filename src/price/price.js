@@ -9,7 +9,10 @@ export default class Price {
     return `
       <section class="prices" id="prices">
     <h2 class="heading-price">ВАРТІСТЬ ПОСЛУГ</h2>
-    <h3 class="sub-heading-price">Стати членом нашого спортивного клубу ви можете безкоштовно. Для цього треба лише підписатися.</h3>
+    <h3 class="sub-heading-price">Стати членом нашого спортивного клубу ви можете безкоштовно.
+    </h3> 
+    <h3 class="sub-heading-price">Для цього треба лише <a href="#" class="btn-price">ПІДПИСАТИСЯ</a>
+    </h3>
 
     <div class="box-container">
       

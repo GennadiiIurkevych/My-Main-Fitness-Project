@@ -15,7 +15,7 @@ export default class Home {
         <p>Кожен може досягнути своїх висот, якщо до них йти. Цей, інколи, не легкий шлях вам допоможе подолати наш міжнародний спортивний клуб 
           <span class="club-name">"IRON BEES"</span>
         .</p>
-        <button class="btn">РОЗПОЧНЕМО</button> 
+        <button class="btn-home">РОЗПОЧНЕМО</button> 
       
       </div>
     `

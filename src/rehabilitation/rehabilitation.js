@@ -10,7 +10,9 @@ export default class Rehabilitation {
     return `
       <section class="services" id="rehabilitation">
 
-        <h3 class="heading">Програма реабілітації та фізіотерапії</h3>
+        <h3 class="heading" data-aos="fade-up" data-aos-duration="3000">
+          Програма реабілітації та фізіотерапії
+        </h3>
 
         <div class="rehabilitation-img">
           <img src="http://localhost:1234/Rehabilitation.d3ffdaf8.jpg?1741465415880" alt="image">
@@ -81,7 +83,7 @@ export default class Rehabilitation {
 
     // const img1 = document.createElement('img');
     //       img1.className = "fitness-img"; 
-    //       img1.src = new URL('./img/rehabilitation.png', import.meta.url);  
+    //       img1.src = new URL('./img/OandX.png', import.meta.url);  
 
     //       rehabilitationElement.append(img1);
 

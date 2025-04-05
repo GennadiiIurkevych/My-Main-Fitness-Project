@@ -42,7 +42,7 @@ export default class Header {
   
     return `
     
-     <nav class="nav">
+     <nav class="nav-header">
 
       <a href="#home" class="nav-logo nav text-2xl">МІЖНАРОДНИЙ СПОРТИВНИЙ КЛУБ
       <span class="logo-name">"IRON BEES"</span>
@@ -53,6 +53,7 @@ export default class Header {
         <li><a href="#fitness" class="nav-link">ФІТНЕС</a></li>
         <li><a href="#weightlifting" class="nav-link">ВАЖКА АТЛЕТИКА</a></li>
         <li><a href="#rehabilitation" class="nav-link">РЕАБІЛІТАЦІЯ</a></li>
+        <li><a href="#prices" class="nav-link">ЦІНИ</a></li>
         <li><a href="#about" class="nav-link">ПРО СЕБЕ</a></li>
         <li><a href="#contacts" class="nav-link">КОНТАКТИ</a></li>
 
@@ -91,44 +92,8 @@ export default class Header {
           
           element.append(img);
     
-      // element.innerHTML = this.getTemplate();
-      // this.element = element;
   }
 
-//   addListeners() {
-//     // const navMenu = document.getElementById('nav-menu');
-  
-//         // consol.log(navMenu);
-    
-//         // navToggle = document.getElementById('nav-toggle');
-
-//       // consol.log(navToggle);
-
-//     // navClose = document.getElementById('nav-close');
-
-//   // consol.log(navClose);
-
-// // if (navToggle) {
-// //   navToggle.addEventListener('click', () => {
-// //     navMenu.classList.add('show-menu');
-// //   });
-// // }
-
-// // if (navClose) {
-// //   navClose.addEventListener('click', () => {
-// //     navMenu.classList.remove('show-menu');
-// //   });
-// // }
-
-// // let navLink = document.querySelectorAll('.nav-link');
-
-// // let linkAction = () => {
-// //   navMenu.classList.remove('show-menu');
-// // };
-
-// // navLink.forEach(e => e.addEventListener('click', linkAction));
-// //   
-// }
 
 }
 
