@@ -48,7 +48,7 @@ export default class Contacts {
 </svg><img class="img-contacts" src="http://localhost:1234/Olimp%20logo.a6db6190.png?1743357625679" alt="OLIMP"></a>
       <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-</svg></i>Спортклуб "ЕЛЕКС"</a>
+</svg><img class="img-contacts" src="http://localhost:1234/Eleks.d7f0b265.png?1744107017493" alt="ELEKS"></a>
     </div>
     <div class="footer-box">
       <h3>Швидкий перехід</h3>
@@ -115,7 +115,7 @@ export default class Contacts {
 
     // const img = document.createElement('img');
     //       img.className = "contacts-img"; 
-    //       img.src = new URL('./img/Olimp logo.png/', import.meta.url);
+    //       img.src = new URL('./img/Eleks.png/', import.meta.url);
           
     //       contactsElement.append(img);
 
