@@ -24,7 +24,8 @@
   color: var(--main-color);
 }
 
-.img-contacts {
+.img-contacts,
+.img-contacts2 {
   max-width: 10rem;
 }
 
@@ -43,7 +44,7 @@
 
 .footer .box-container .footer-box a {
   display: flex;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--text-color);
   padding: 1rem 0;
   text-decoration: none;
@@ -53,7 +54,7 @@
   padding-right: 0.5rem;
   color: var(--main-color);
   width: 2rem;
-  margin-top: 0.75rem;
+  margin-top: 0.5rem;
 }
 
 .footer .box-container .footer-box a:hover svg {

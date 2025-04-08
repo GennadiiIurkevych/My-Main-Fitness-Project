@@ -584,7 +584,8 @@ ul.flexBody img {
 
   .fitness-container {
     max-width: 40rem;
-    margin-left: 2rem;
+    margin-top: 0;
+    margin-left: -1rem;
   }
 
   ul.strong {
@@ -611,26 +612,26 @@ ul.flexBody img {
 
   ul.build img {
     max-height: 21rem;
-    margin-left: -10rem;
+    margin-left: -14rem;
   }
 
   ul.grow img.grow {
     max-width: 14rem;
     margin-top: -22rem;
-    margin-right: 9rem;
+    margin-right: 10rem;
     position: absolute;
   }
 
   ul.grow img.lower {
-    max-height: 19rem;
-    margin-top: -19rem;
+    max-height: 18rem;
+    margin-top: -18rem;
     margin-right: -1rem;
     padding-left: 2rem;
     position: absolute;
   }
 
   ul.upperFit li {
-    margin-left: 0;
+    margin-left: 1rem;
     margin-right: -34rem;
   }
 
@@ -639,9 +640,10 @@ ul.flexBody img {
   }
 
   ul.upperFit img.man {
-    max-height: 18rem;
+    height: 20rem;
     margin-top: 4rem;
-    margin-right: -12rem;
+    margin-left: -1rem;
+    max-width: 20rem !important;
   }
 
   ul.flexBody img {
@@ -652,11 +654,11 @@ ul.flexBody img {
 
   ul.flexBody li {
     margin-top: 14rem;
-    margin-left: 23rem;
+    margin-left: 22rem;
   }
 
   .btn-fitness {
-    margin-left: 10rem;
+    margin-left: 12rem;
   }
 }
 
@@ -1198,30 +1200,31 @@ button.btn-rehabilitation {
   }
 
   ul.strong li.rehabilitation {
-    margin-left: 7rem;
+    margin-left: 4.25rem;
   }
 
   ul.strong-rehabilitation li {
     width: 24rem;
     margin-top: -1rem;
-    margin-left: 10rem;
+    margin-left: 7rem;
   }
 
   ul.fit-rehabilitation li {
     margin-top: 25rem;
-    margin-left: -31rem;
+    margin-left: -30rem;
   }
 
   ul.strong-rehabilitation img {
     max-width: 28rem;
     margin-top: 35rem;
+    margin-left: 4rem;
     position: absolute;
   }
 
   ul.fit-rehabilitation > img {
     height: 27rem;
     margin-top: -2rem;
-    margin-left: 8rem;
+    margin-left: 6rem;
   }
 
   hr {
@@ -1239,13 +1242,13 @@ button.btn-rehabilitation {
 
   ul.grow-rehabilitation img.lower {
     max-height: 20rem;
-    margin-top: -17.5rem;
+    margin-top: -21.25rem;
     margin-right: 3rem;
     position: absolute;
   }
 
   ul.grow-rehabilitation li {
-    margin-top: 4rem;
+    margin-top: 1rem;
     margin-right: 10rem;
   }
 
@@ -1260,24 +1263,30 @@ button.btn-rehabilitation {
 
   ul.upperFit-rehabilitation li {
     width: 37rem;
+    margin-left: 0;
     line-height: 1.2;
   }
 
   ul.upperFit-rehabilitation img.foot {
     max-height: 7rem;
     margin-top: 2rem;
+    margin-left: 0;
+  }
+
+  ul.upperFit-rehabilitation img.man {
+    margin-left: 11rem;
   }
 
   ul.flexBody-rehabilitation > li {
     width: 37rem;
     margin-top: 19rem;
-    margin-left: 2rem;
+    margin-left: 0;
   }
 
   img.body-rehabilitation {
     max-width: 33rem;
-    margin-top: 27rem;
-    margin-left: 0;
+    margin-top: 24rem;
+    margin-left: -2rem;
   }
 
   hr.body-rehabilitation {
@@ -1286,7 +1295,7 @@ button.btn-rehabilitation {
 
   button.btn-rehabilitation {
     margin-top: -1rem;
-    margin-left: 8rem;
+    margin-left: 8.2rem;
   }
 }
 
@@ -1585,6 +1594,10 @@ button.price-btn:hover {
   .review .row .box-container .review-box img {
     margin-left: 13rem;
   }
+
+  .review .row .content {
+    margin-left: -4rem;
+  }
 }
 
 .team {
@@ -1715,7 +1728,7 @@ button.price-btn:hover {
   color: var(--main-color);
 }
 
-.img-contacts {
+.img-contacts, .img-contacts2 {
   max-width: 10rem;
 }
 
@@ -1735,7 +1748,7 @@ button.price-btn:hover {
 .footer .box-container .footer-box a {
   color: var(--text-color);
   padding: 1rem 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-decoration: none;
   display: flex;
 }
@@ -1743,7 +1756,7 @@ button.price-btn:hover {
 .footer .box-container .footer-box a svg {
   color: var(--main-color);
   width: 2rem;
-  margin-top: .75rem;
+  margin-top: .5rem;
   padding-right: .5rem;
 }
 

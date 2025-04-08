@@ -13,6 +13,7 @@
   flex: 1 1 40rem;
   text-align: center;
   border-radius: 1rem;
+
 }
 
 .review .row .content h2 {
@@ -156,4 +157,7 @@
     margin-left: 13rem;
   }
 
+  .review .row .content {
+    margin-left: -4rem;
+  }
 }

@@ -234,30 +234,31 @@ ul.grow-rehabilitation img.lower {
 }
 
 ul.strong li.rehabilitation {
-  margin-left: 7rem;
+  margin-left: 4.25rem;
 }
 
 ul.strong-rehabilitation li {
   width: 24rem;
-  margin-left: 10rem;
+  margin-left: 7rem;
   margin-top: -1rem;
 }
 
 ul.fit-rehabilitation li {
   margin-top: 25rem;
-  margin-left: -31rem;
+  margin-left: -30rem;
 }
 
 ul.strong-rehabilitation img {
   max-width: 28rem;
   margin-top: 35rem;
   position: absolute;
+  margin-left: 4rem;
 }
 
 ul.fit-rehabilitation > img {
   height: 27rem;
   margin-top: -2rem;
-  margin-left: 8rem;
+  margin-left: 6rem;
 }
 
 hr {
@@ -275,13 +276,13 @@ ul.build-rehabilitation li {
 
 ul.grow-rehabilitation img.lower {
   max-height: 20rem;
-  margin-top: -17.5rem;
+  margin-top: -21.25rem;
   position: absolute;
   margin-right: 3rem;
 }
 
 ul.grow-rehabilitation li {
-  margin-top: 4rem;
+  margin-top: 1rem;
   margin-right: 10rem;
 }
 
@@ -297,23 +298,32 @@ hr.grow-rehabilitation {
 ul.upperFit-rehabilitation li {
   width: 37rem;
   line-height: 1.2;
+  margin-left: 0;
 }
 
 ul.upperFit-rehabilitation img.foot {
   max-height: 7rem;
   margin-top: 2rem;
+  margin-left: 0;
+}
+
+ul.upperFit-rehabilitation img.man {
+
+
+  margin-left: 11rem;
+
 }
 
 ul.flexBody-rehabilitation > li {
   width: 37rem;
   margin-top: 19rem;
-  margin-left: 2rem;
+  margin-left: 0;
 }
 
 img.body-rehabilitation {
     max-width: 33rem;
-    margin-top: 27rem;
-    margin-left: 0rem;
+    margin-top: 24rem;
+    margin-left: -2rem;
 }
 
 hr.body-rehabilitation {
@@ -322,7 +332,8 @@ hr.body-rehabilitation {
 
 button.btn-rehabilitation {
   margin-top: -1rem;
-  margin-left: 8rem;
+  margin-left: 8.2rem;
 }
 }
+
 

@@ -18,7 +18,7 @@ export default class Rehabilitation {
           <img src="http://localhost:1234/Rehabilitation.d3ffdaf8.jpg?1741465415880" alt="image">
         </div>
 
-        <ul class="strong">
+        <ul class="strong" data-aos="zoom-in">
             <li class="rehabilitation">Підбір вправ та розподіл навантажень для:</li>
           </ul>
 
@@ -29,7 +29,7 @@ export default class Rehabilitation {
             <img src="http://localhost:1234/pngwing.com.87092c91.png?1741463736018">
           </ul>
 
-          <ul class="fit-rehabilitation">
+          <ul class="fit-rehabilitation" data-aos="fade-down">
           <img src="http://localhost:1234/vertebraeRentgen.bad26897.png?1741463971706">  
             <li>Зниження та усунення больових відчуттів спини</li>
           </ul>
@@ -38,12 +38,12 @@ export default class Rehabilitation {
 
           <ul class="build-rehabilitation">
             <li>Відновлення рухливості хребта та суглобів</li>
-            <img class="rehabilitation" src=http://localhost:1234/%D0%A1%D1%83%D0%B3%D0%BB%D0%BE%D0%B1%D0%B8.b0932930.png?1741535295376">
+            <img class="rehabilitation" data-aos="fade-right" src=http://localhost:1234/%D0%A1%D1%83%D0%B3%D0%BB%D0%BE%D0%B1%D0%B8.b0932930.png?1741535295376">
           </ul>
 
           <ul class="grow-rehabilitation">
           <li>Усунення зміщень хребців</li>
-          <img class="lower" src="http://localhost:1234/%D0%A5%D1%80%D0%B5%D0%B1%D0%B5%D1%82.d5261fd3.png?1741530583033">   
+          <img class="lower" data-aos="fade-left" src="http://localhost:1234/%D0%A5%D1%80%D0%B5%D0%B1%D0%B5%D1%82.d5261fd3.png?1741530583033">   
           </ul>
 
           <img class="lower-rehabilitation" src="http://localhost:1234/Lumbar3.b719343b.jfif?1741538015008">   
